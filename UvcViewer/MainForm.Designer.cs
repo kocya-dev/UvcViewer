@@ -40,7 +40,7 @@
             this._deviceSelectControl.Location = new System.Drawing.Point(12, 12);
             this._deviceSelectControl.MinimumSize = new System.Drawing.Size(44, 99);
             this._deviceSelectControl.Name = "_deviceSelectControl";
-            this._deviceSelectControl.Size = new System.Drawing.Size(440, 99);
+            this._deviceSelectControl.Size = new System.Drawing.Size(440, 122);
             this._deviceSelectControl.TabIndex = 0;
             this._deviceSelectControl.ResolutionSelected += new System.EventHandler(this._deviceSelectControl_ResolutionSelected);
             // 
@@ -49,9 +49,9 @@
             this._pictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this._pictureBox.Location = new System.Drawing.Point(12, 113);
+            this._pictureBox.Location = new System.Drawing.Point(12, 140);
             this._pictureBox.Name = "_pictureBox";
-            this._pictureBox.Size = new System.Drawing.Size(440, 236);
+            this._pictureBox.Size = new System.Drawing.Size(440, 244);
             this._pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this._pictureBox.TabIndex = 1;
             this._pictureBox.TabStop = false;
@@ -60,7 +60,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 361);
+            this.ClientSize = new System.Drawing.Size(464, 396);
             this.Controls.Add(this._pictureBox);
             this.Controls.Add(this._deviceSelectControl);
             this.DoubleBuffered = true;
